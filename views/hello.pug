@@ -1,0 +1,35 @@
+html 
+    head 
+        style
+             include estilos.css
+        title="Plantilla Pug en JS"
+body 
+
+    div#info
+            ul#id
+               p="ID"
+                     each idenficacion in ides
+                          li=idenficacion
+            ul#nombre
+               p="NAME"
+                     each nombres in nombre
+         
+                          li=nombres
+
+            ul#primary
+               p="PRIMARY ATTR"
+                     each primario in primaryattr
+         
+                          li=primario
+            
+            ul#attack
+               p="ATTACK TYPE"
+                     each ataque in attacktype
+         
+                          li=ataque
+
+            ul#rol
+               p="ROLES"
+                     each roleo in rolesTipo
+         
+                          li=roleo

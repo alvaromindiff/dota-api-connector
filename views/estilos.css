@@ -1,0 +1,28 @@
+li{
+    cursor:pointer;
+   list-style: none;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   margin-right: 2rem;
+}
+
+p{
+    text-decoration: underline;
+}
+ul{
+    background-color: #CCC;
+    border: 1px solid black;
+    width: 15%;
+    height: 100%;
+    
+}
+
+ul#rol{
+    width: 25%;
+}
+div#info{
+    display: flex;
+ 
+}

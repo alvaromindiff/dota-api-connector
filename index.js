@@ -25,7 +25,7 @@ app.get('/hero-json', (req, res) => {
 });
 
 
-//Gestión de los datos de los héroes en formato HTML
+//Gestión de los datos de los héroes en formato HTML.
 app.get('/hero-html', (req, res) => {
 
     //3-Devolver los datos en formato HTML
